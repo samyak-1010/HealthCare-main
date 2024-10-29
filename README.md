@@ -34,19 +34,23 @@ Unique Identifiers: Supports searches by doctor ID or phone number, making it ea
 Cost Estimation Tool: Provides approximate costs for surgeries or treatments at different hospitals, empowering users to make informed financial decisions.
 11. Emergency Services
 Emergency Video Call Support: For users with limited access to urgent care, particularly those enrolled in partner health insurance programs, the platform offers emergency video consultations.
+
 Technology Stack
 Frontend: Built with React to deliver a modern, dynamic user interface.
 Backend: Powered by Express.js for handling API requests, authentication, and business logic.
-Database: MongoDB Atlas for secure, cloud-based data storage with efficient retrieval systems for large datasets.
-Video Consultation: Zego API provides high-quality, low-latency video streaming for doctor-patient interactions.
-Image Storage: Cloudinary for managing and optimizing images, ensuring fast load times and secure storage.
+Database: MongoDB Atlas provides secure, cloud-based data storage with efficient retrieval for large datasets.
+Video Consultation: Zego API delivers high-quality, low-latency video streaming for doctor-patient interactions.
+Image Storage: Cloudinary manages and optimizes images, ensuring fast load times and secure storage.
 UI/UX: Designed with Tailwind CSS for a clean aesthetic with scaling effects on cards and color gradients.
-Routing: NAVLink manages smooth navigation across the platform.
+Routing: NAVLink enables smooth navigation across the platform.
 Donation Section: Swiper.js offers an interactive, responsive donation section, allowing users to scroll through cases requiring financial assistance.
 Business Model
-The platform utilizes sustainable monetization strategies to ensure essential healthcare services remain accessible:
-
-Subscription Plans for Doctors: Monthly subscriptions for doctors, with premium options to enhance search visibility.
-Health Insurance Commissions: Earns commission by recommending health insurance during consultations, giving users access to emergency services.
+Subscription Plans for Doctors: Monthly subscriptions with premium options to enhance search visibility.
+Health Insurance Commissions: Commission earned by recommending health insurance during consultations, with benefits including access to emergency services.
 Healthcare Product Sales: Offers products like Chyawanprash and services such as vaccinations to rural communities.
-Free Emergency Services: Users enrolled in partner insurance plans receive emergency video call consultations at no additional cost.
+Free Emergency Services: Provides free emergency video call consultations to users enrolled in partner insurance plans.
+
+
+
+
+
