@@ -36,21 +36,42 @@ Cost Estimation Tool: Provides approximate costs for surgeries or treatments at 
 Emergency Video Call Support: For users with limited access to urgent care, particularly those enrolled in partner health insurance programs, the platform offers emergency video consultations.
 
 Technology Stack
-Frontend: Built with React to deliver a modern, dynamic user interface.
-Backend: Powered by Express.js for handling API requests, authentication, and business logic.
-Database: MongoDB Atlas provides secure, cloud-based data storage with efficient retrieval for large datasets.
-Video Consultation: Zego API delivers high-quality, low-latency video streaming for doctor-patient interactions.
-Image Storage: Cloudinary manages and optimizes images, ensuring fast load times and secure storage.
-UI/UX: Designed with Tailwind CSS for a clean aesthetic with scaling effects on cards and color gradients.
-Routing: NAVLink enables smooth navigation across the platform.
-Donation Section: Swiper.js offers an interactive, responsive donation section, allowing users to scroll through cases requiring financial assistance.
+1. Frontend: React.js
+The frontend is developed using React.js, offering a highly dynamic and responsive user interface.
+Components are structured modularly to support efficient state management, enhanced readability, and reusability.
+Tailwind CSS is used to design a clean, intuitive UI with consistent branding, hover effects, and gradient-based visual elements.
+Responsive Design: Tailored to work seamlessly across desktops, tablets, and smartphones to ensure accessibility for users with varying device capabilities.
+2. Backend: Express.js
+Express.js serves as the backend framework, managing API requests and business logic.
+RESTful APIs are designed to handle CRUD operations for patient records, doctor details, appointment scheduling, donation entries, and more.
+Middleware manages authentication, logging, and error handling to ensure a secure and robust backend structure.
+Scalable infrastructure allows the website to handle large volumes of requests concurrently.
+3. Database: MongoDB Atlas
+A cloud-based NoSQL database provides secure, efficient data storage and retrieval.
+All sensitive data, including patient records, medical histories, and consultations, is encrypted at rest and in transit.
+MongoDB's flexible schema enables easy modification of data models as new features are introduced, making it highly adaptable to evolving project requirements.
+Data indexes and optimized queries ensure fast response times, even with large datasets.
+4. Video Consultation: Zego API
+Zego API is integrated to power real-time video consultations between patients and doctors.
+It offers low-latency video streaming, even over lower bandwidth connections, ensuring accessibility in areas with limited internet speed.
+API features allow session management and real-time quality adjustments, improving video consultation reliability and user experience.
+5. Image Storage: Cloudinary
+Cloudinary is used to store, optimize, and manage medical images like X-rays, reports, and other visuals.
+Secure image hosting includes optimized image delivery, enhancing load times across various internet speeds.
+It supports compression and format conversion to balance quality and size, benefiting users with slower internet connections.
+6. UI/UX Design: Tailwind CSS
+Tailwind CSS enables a modern design with scalable, responsive components.
+It provides a cohesive look with gradient effects, hover animations, and a clean, minimalist design style that enhances user engagement.
+Custom styles ensure consistency across all pages, promoting usability and simplifying the user interface.
+7. Routing: NAVLink (React Router)
+NAVLink from React Router handles smooth navigation across the platform, supporting a single-page application experience.
+Route transitions are handled seamlessly, maintaining application state and ensuring that the user experience remains uninterrupted.
+8. Donation Section: Swiper.js
+Swiper.js provides an interactive slider for showcasing donation cases, allowing users to scroll through different profiles of patients requiring financial assistance.
+Each case features real-time progress updates on donations, encouraging user engagement and transparency.
+
 Business Model
-Subscription Plans for Doctors: Monthly subscriptions with premium options to enhance search visibility.
-Health Insurance Commissions: Commission earned by recommending health insurance during consultations, with benefits including access to emergency services.
-Healthcare Product Sales: Offers products like Chyawanprash and services such as vaccinations to rural communities.
-Free Emergency Services: Provides free emergency video call consultations to users enrolled in partner insurance plans.
-
-
-
-
-
+Subscription Plans for Doctors: Doctors can subscribe to a monthly plan, with premium listings that boost their visibility in search results.
+Health Insurance Commissions: Revenue is generated by recommending health insurance plans to patients, which also grants users access to emergency services.
+Healthcare Product Sales: Health products like Chyawanprash and vaccination services are available for purchase, targeting rural healthcare needs.
+Free Emergency Services: Patients with partner health insurance plans gain access to free emergency video consultations.
